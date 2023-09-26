@@ -5,7 +5,7 @@ function addLinhas() {
     reservas.map(reserva => {
         return {
             ...reserva,
-            
+
         }
     })
 
@@ -31,6 +31,12 @@ function addLinhas() {
         document.getElementById('linhas-tabela').appendChild(tr)
 
 })
+    gerarLinhas()
+
 }
 
 window.onload = addLinhas
+
+function gerarLinhas(): {
+
+}
