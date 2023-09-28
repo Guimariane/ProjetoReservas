@@ -11,6 +11,12 @@ input{
     height: 30px;
 }
 
+label{
+    padding-top: 15px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 button{
     background-color: dodgerblue;
     border-color: dodgerblue;
@@ -20,6 +26,28 @@ button{
     color: white;
     height: 35px;
     width: 80px;
+}
+
+#reservar{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+
+.infocliente{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.datas{
+    display: flex;
+    flex-direction: row;
 }
 
 .campo{
