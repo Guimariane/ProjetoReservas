@@ -17,7 +17,7 @@ function Logar() {
 
         if(usuarioEncontrado) {
             alert("Login realizado com sucesso. Redirecionando para a home...")
-            window.location.ref = './home.html';
+            window.location.href = "reservas.html"
          } else {
              alert ("O usuário não foi encontrado!")
          }
