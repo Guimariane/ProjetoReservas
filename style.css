@@ -29,28 +29,6 @@ button{
     width: 80px;
 }
 
-#reservar{
-    background-color: dodgerblue;
-    border-color: dodgerblue;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: white;
-    height: 50px;
-    width: 150px;
-}
-
-.infocliente{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
-}
-
-.datas{
-    display: flex;
-    flex-direction: row;
-}
-
 .campo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -98,6 +76,11 @@ tbody{
 }
 
 /* Elementos Cadastro de reservas */
+
+#cadastro-reserva {
+    display: flex;
+    flex-direction: column;
+}
 
 #reservar{
     background-color: dodgerblue;
