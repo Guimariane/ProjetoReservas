@@ -1,3 +1,4 @@
+/* Elementos Gerais */
 div{
     display: flex;
     flex-direction: column;
@@ -34,6 +35,21 @@ button{
     color: darkred;
 }
 
+/* Elementos Gerenciamento de reservas */
+
+.botoes-reservas{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-logout{
+    padding-right: 10px;
+}
+
+#redirecionar-cadastro{
+    width: 180px
+}
+
 table{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -47,4 +63,21 @@ thead{
     color: white;
     font-size: 20px;
     padding: 10px
+}
+
+tbody{
+    background-color: lightsteelblue;
+}
+
+/* Elementos Cadastro de reservas */
+
+#reservar{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 180px;
 }
