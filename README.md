@@ -12,6 +12,7 @@ As tecnologias utilizadas para a confecção desse site de reservas foi feito co
 ### Telas:
 ![DevInHouse - Projeto Reservas - Tela 1 - Login](https://github.com/Guimariane/ProjetoReservas/assets/47523514/cd884cd9-eae2-44c7-807f-cad55112f80f)
 ![DevInHouse - Projeto Reservas - Tela 2 - Login Logado](https://github.com/Guimariane/ProjetoReservas/assets/47523514/30ce05e3-2dfe-48e9-b90f-b82584a36160)
-![DevInHouse - Projeto Reservas - Tela 3 - Gerenciamento Reservas](https://github.com/Guimariane/ProjetoReservas/assets/47523514/9d3ca45f-69d8-4e4d-a68c-14aee4417d1b)
+![DevInHouse - Projeto Reservas - Tela 3 - Gerenciamento Reservas](https://github.com/Guimariane/ProjetoReservas/assets/47523514/19552bc0-e8fb-4741-b1a8-c10351d5afdf)
+![DevInHouse - Projeto Reservas - Tela 4 - Cadastro Reservas](https://github.com/Guimariane/ProjetoReservas/assets/47523514/e3ecb176-b872-4597-a434-4c91caa96a9e)
 
 
