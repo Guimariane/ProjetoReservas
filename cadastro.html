@@ -4,64 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Reservas.com</title>
+    <script type="module" src="scripts/cadastro.js"></script>
+    <title>Reservas.com - Cadastro de Reserva</title>
 </head>
 <body>
     <div>
         <h1>Cadastro de Reservas</h1>
     </div>
 
-    <div>
+    <div class="fazer-reserva">
         <form id="cadastro-reserva">
-            <div class="infocliente">
-                    <label for="nquarto" class="cadastro">Número do Quarto: </label>
-                    <select id="nquarto">
-                        <option value="1992">1992</option>
-                        <option value="1993">1993</option>
-                        <option value="1994">1994</option>
-                        <option value="1995">1995</option>
-                        <option value="1996">1996</option>
-                        <option value="1997">1997</option>
-                        <option value="1998">1998</option>
-                        <option value="1999">1999</option>
-                        <option value="2000">2000</option>
-                        <option value="2001">2001</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                        <option value="2009">2009</option>
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                    </select>
-                    <span id="error-nquarto" class="texto-erro">Campo Obrigatório</span>
+            <label for="nquarto" class="cadastro">Número do Quarto: </label>
+            <select id="nquarto">
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+            </select>
+            <span id="error-nquarto" class="texto-erro"></span>
         
-                    <label for="nome" class="cadastro">Nome do Cliente: </label>
-                    <input type="text" id="nome">
-                    <span id="error-cliente" class="texto-erro">Campo Obrigatório</span>
+            <label for="nome" class="cadastro">Nome do Cliente: </label>
+            <input type="text" id="nome">
+            <span id="error-cliente" class="texto-erro"></span>
             
-                    <label for="cpf" class="cadastro">CPF do Cliente: </label>
-                    <input type="text" id="cpf">
-                    <span id="error-cpf" class="texto-erro">Campo Obrigatório</span>
-            </div>
+            <label for="cpf" class="cadastro">CPF do Cliente: </label>
+            <input type="text" id="cpf">
+            <span id="error-cpf" class="texto-erro"></span>
            
-           <div class="datas">
             <label for="dataentrada" class="cadastro">Data de Entrada: </label>
             <input type="date" id="dataentrada">
-            <span id="error-dataentrada" class="texto-erro">Campo Obrigatório</span>
+            <span id="error-dataentrada" class="texto-erro"></span>
     
             <label for="datasaida" class="cadastro">Data de Saída: </label>
             <input type="date" id="datasaida">
-            <span id="error-datasaida" class="texto-erro">Campo Obrigatório</span>
-           </div>
+            <span id="error-datasaida" class="texto-erro"></span>
 
             <br>
 
-            <button id="reservar" type="button">Cadastrar Reserva</button>
+            <button id="reservar" type="submit">Cadastrar Reserva</button>
         </form>
     </div>
 </body>
