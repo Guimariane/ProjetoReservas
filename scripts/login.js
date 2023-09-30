@@ -1,6 +1,10 @@
 import {usuarios} from '../constantes/usuarios.js'
 
+// Evento para o botão da página
+
 document.getElementById('login').addEventListener("click", Logar);
+
+// Função da página
 
 function Logar() {
     const email = document.getElementById("email").value

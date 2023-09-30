@@ -1,13 +1,17 @@
 
 let dados_reservas = []
 
+// Eventos para os botões
+
 document.getElementById('logout').addEventListener('click', () => {
     window.location.href = "login.html"
 })
 
 document.getElementById('redirecionar-cadastro').addEventListener('click', () => {
-    window.location.href = "cadastroreservas.html"
+    window.location.href = "cadastro.html"
 })
+
+// Funções da página
 
 function addLinhas(filteredData) {
 
